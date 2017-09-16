@@ -1,8 +1,8 @@
-    '''
+'''
 Created on Jan 5, 2016
 
 @author: Saurab Dulal
-Sacraping setoPati.com
+Sacraping www.setopati.com
 
 '''
 # process of extraction
@@ -109,7 +109,7 @@ def articlesFromLink(articlesLinkList):
                 totalArticleCollectionDict.append({'category':category,'article':article})
                  print (article)
                  exit();
-				# # writing to csv file
+		# # writing to csv file
                 # # article = 'a'
                 #
                 # with open('setopatiArticles.csv', 'a',encoding='utf-8') as csvfile:
@@ -119,7 +119,7 @@ def articlesFromLink(articlesLinkList):
                 #     handler.writerow(a)
 
                 # exit()
-# I need to extract empty divs with no class or ids and <p> tags and <h> tags, this is it ok
+# I need to extract empty divs with no class or ids, and <p> tags, and <h> tags.
 
 
 
