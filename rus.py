@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+
+"""rus.py: scraps data from the Rus(Professor at the University of Memphis)."""
+
+__author__      = "Saurab Dulal"
+__copyright__   = "..Bam.."
+
 import urllib
 import re as regx
 from collections import Counter
@@ -20,7 +27,7 @@ def parserRus():
     mystr = str(mystr)
     mystr_split = mystr.split("<!--BEGIN PAGE CONTENT") #this will get the body containt
 
-    m = (regx.sub(r'<([^>]*)>','Nepali',mystr_split[1])).strip() #replace any content "<any>" with Nepali
+    m = (regx.sub(r'<([^>]*)>','Nepali',mystr_split[1])).strip() #replace any content "<*any*>" with Nepali(free to choose yours)
     text_list = m.split('Nepali')
     revised_list = []
     for item in text_list:
