@@ -1,8 +1,9 @@
 '''
+#!/usr/bin/env python
 Created on Jan 5, 2016
-
-@author: Saurab Dulal
-Sacraping www.setopati.com
+"""main.py: Sacraping www.setopati.com."""
+__author__      = "Saurab Dulal"
+__copyright__   = "..Bam.."
 
 '''
 # process of extraction
