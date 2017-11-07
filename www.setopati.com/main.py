@@ -36,9 +36,7 @@ headers = {'Host': 'setopati.com',
            'Accept-Language': 'en-US,en;q=0.5',
            'Accept-Encoding': 'gzip, deflate',
            'Content-Type': 'application/x-www-form-urlencoded',
-           'Origin: http': '//www.target.com',
            'Connection': 'keep-alive',
-           'Cookie': '__cfduid=df6922510f7f784187df0a2292900b0e51435113276; _ga=GA1.2.2084332863.1435113363; __unam=7639673-14e236c1b06-4e861a70-19; PHPSESSID=e034a7e5ec212bfa1cec9bd4a980358f; _gat=1',
            'Cache-Control': 'max-age=0'}
 
 
